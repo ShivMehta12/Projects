@@ -1,0 +1,458 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    background-color: black;
+    height: 60px;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-left a{
+    color:white;
+    padding:10px 8px;
+}
+a{
+    text-decoration: none;
+    
+}
+
+.header-left i {
+    padding:10px;
+}
+.header-right a{
+    padding:20px;
+    border-right:1px solid white;
+    border-left:1px solid white;
+    color:white;
+}
+/* ------------------grabmedis------------------------ */
+#grabmedis{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px 20px 0px;
+    height: 50px;
+    align-items: center;
+}
+.h1{
+    color:orange;
+    margin-left:50px;
+}
+#grabmedis a{
+    color:black;
+    text-decoration: none;
+
+}
+select{
+    /* width: 30px; */
+    padding-left: 40px;
+}
+.search1{
+    height:100px ;
+    width:400px;
+    background-color: gray;
+}
+
+.button{
+    height: 49px;
+    width: 178px;
+    font-size: 23px;
+    background-color: orange;
+    color: white;
+    border: 2px solid orange;
+}
+/* -----------------Search Dropdown me---------------- */
+#search{
+    background-color: #363c48;
+    height: 100px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* For select  */
+#select{
+    height:50px;
+    width: 300px;
+    color:black;
+    background-color: white;
+}
+/* for middle section */
+.middle{
+    height: 48px;
+    width: 598px;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    padding-left: 21px;
+    align-items: center;
+}
+/*---------------- For button  */
+.btn{
+    background-color: orange;
+    color:white;
+    height:51px;
+    border-color: orange;
+    width:243px;
+}
+
+/* ----------------------car Css-------------------- */
+#container{
+    text-align: center;
+    position: relative;
+    color:white;
+    height:500px;
+    background-color: black;
+}
+#car-image{
+   filter:brightness(30%);
+    width: 751px;
+    height: 355px;
+    padding-top:100px;
+}
+/* h2 Centered text */
+.centered  {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+/* p Centered text */
+.centered-p  {
+    position: absolute;
+    top: 50%;
+    left: 33%;
+}
+h2 span {
+    color:orange;
+}
+
+/*------------------------------ LATEST A D S  DIV */
+.Latest-ads{
+    background-color: lightgrey;
+    
+    height:570px;
+    padding-top:50px;
+}
+.Latest-ads h2{
+    color:orange;
+    text-align: center;
+    font-size:50px;
+}
+.Latest-ads h5{
+    color:gray;
+    text-align: center;
+}
+.pics{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:20px;
+    
+}
+.height{
+    height: 176px;
+    width: 226px;
+    border-top-width: 0px;
+    margin-top: -4px;
+    border: 2px solid gray;
+}
+.mobile{
+    color:black;
+    background-color: white;
+    padding:37px 0px 0px 15px;
+    
+}
+.mobile p{
+    padding-bottom:14px;
+}
+.mobile span{
+    color:orange;
+    font-size: 20px;
+}
+.gray{
+    color:darkgray;
+}    
+/* -----------------ADS categories------------------------------- */
+#ads-container{
+    text-align: center;
+    padding-top:40px;
+}
+#ads-container h1{
+    color: orange;
+}
+.image-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.single-image{
+    padding:20px 20px 20px 0px;
+    margin-top:50px;
+    text-align: center;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: 181px;
+    right: 99px;
+    text-align: center;
+}
+.logo p{
+    font-weight: bold   ;
+}
+/* --------------Searching for something--------------- */
+.search{
+     
+      height: 400px;
+      margin-top: 80px;
+      background: rgba(0,0,0,0.8)url(images/night-skyline.jpg);
+      background-blend-mode: darken;
+      
+      background-size: cover;
+      background-position: center center;
+      position: relative;
+    }
+    /* Seaching class */
+    #searching{
+        height: 171px;
+        width: 535px;
+        top: 134px;
+    opacity: 0.9;
+    left: 186px;
+    position: absolute;
+    background-color: #cb2f54;
+}
+/* Searching H2 */
+#searching h2{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 40px;
+    padding-left: 40px;
+}
+/* Searching P */
+#searching p{
+    color: white;
+    text-align: center;
+    padding-top: 9px;
+    padding-left: 58px;
+    width: 429px;
+    font-weight: 200;
+    
+    
+}
+
+#Want-To{
+    height: 171px;
+    width: 535px;
+    top: 134px;
+    opacity: 0.9;
+    right: 232px;
+    position: absolute;
+    background-color:#e09a18eb;;    
+}
+#Want-To h2{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 40px;
+    padding-left: 40px;
+    
+}
+#Want-To p{
+    color: white;
+    text-align: center;
+    padding-top: 9px;
+    padding-left: 58px;
+    width: 429px;
+    font-weight: 200;
+    
+    
+}
+/* Icons Styling magnifying glass*/
+.fa-magnifying-glass{
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 23px;
+    font-size: 53px;
+}
+/* Icons Styling  TAGS*/
+.fa-dollar-sign{
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 23px;
+    font-size: 53px;
+}
+/* --------------------------Happy Clients----------------------- */
+.Happy{
+    height:400px;
+    text-align: center;
+    padding-top:60px;
+    position: relative;
+    background-color: #fff4f4;
+}
+/* Happy h1 */
+h1{
+    color:orange;
+    font-size:50px;
+    text-align: center;
+}
+/* Happy para */
+.Happy p
+{
+    padding:20px;
+   
+    font-weight: 900;
+}
+/* ----------------------Get the app link---------------*/
+#App{
+    background: rgba(0,0, 0, 0.9) url("images/phone-user-bg.jpg");
+    height:340px;
+    background-blend-mode: darken;
+    padding:40px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.p{
+    text-align: center;
+    color:white;    
+    padding-top:20px;
+}
+.Box{
+    background-color: black;
+    height: 137px;
+    width: 521px;
+    padding: 20px 30px;
+    margin: 60px auto;
+    position: relative;
+    display: flex;
+    
+}
+.box1 p{
+    background-color: lightgray;
+    height: 45px;
+    text-align: center;
+    width:77px;
+    font-size: 30px;
+    padding-top:8px;
+    color:black;
+}
+.box2{
+    background-color: lightgray;
+    height: 50px;
+    width: 285px;
+    position: absolute;
+    left: 143px;
+}
+.get{
+    background-color: orange;
+    border: 1px solid orange;
+    height: 3.125em;
+    width: 291px;
+    left: 144px;
+    position: absolute;
+    top: 103px;
+    
+}
+/* ------------Latest news */
+.latest{
+    padding-top:40px;
+    text-align: center;
+}
+.img-container{
+    display: flex;
+    justify-content: space-evenly ;
+    padding-top:40px;
+   
+   
+}
+.june-7{
+    height: 223px;
+    width: 676px;
+    text-align: left;
+    padding: 27px;
+    border: 1px solid gray;
+}
+.read{
+    border: 3px solid orange;
+    color: orange;
+    background-color: white;
+    height: 43px;
+    font-weight: bold;
+    width: 141px;
+    padding-top: -29px;
+    margin-top: 47px;
+
+}
+/* ------------Last second-------------------- */
+.last-second{
+   height:300px;
+   background-color: #303030;
+   margin-top: 50px;
+   padding-top: 45px;
+    
+   display: flex;
+}
+/* about */
+.about{
+    width:330px;
+    
+    color:white;
+    padding-left: 80px;
+}
+/* most-featured ads */
+.most-featured-ads{
+    width:390px;
+    color:white;
+    
+    padding-left: 60px;
+}
+/* tgs */
+.tags{
+    
+}
+/* quick-links */
+.quick-links{
+    
+}
+/* quick-links a */
+.quick-links a{
+    text-decoration: none;
+    color:white;
+
+}
+/* orange hr */
+.hr{
+    width:45px;
+    padding-left:30px;
+    border-bottom: 0;
+    background-color: orange;
+    border: 1px solid orange;
+}
+/* ----------------------footer------------------------------- */
+.footer{
+    padding:20px 0px 20px 80px;
+    background-color: black;
+    color:white;
+    
+    position: relative;
+    display: flex;
+}
+/* footer icons */
+.icons{
+    
+    position: absolute;
+    right: 151px;
+    word-spacing: 26px;
+
+}
